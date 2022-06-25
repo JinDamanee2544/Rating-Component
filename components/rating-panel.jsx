@@ -10,7 +10,7 @@ const Rating = ({props}) => {
 
     return (
         <>
-        <button className='p-2 bg-my-light-gray rounded-full' onClick={toggleFav}>
+        <button className='p-2 bg-my-light-gray rounded-full cursor-pointer' onClick={toggleFav}>
             {!isFav && <AiOutlineStar className='fill-primary'/>}
             {isFav && <AiFillStar className='fill-primary'/>}
         </button>
@@ -28,7 +28,7 @@ const Rating = ({props}) => {
               <li><button className={`rating-btn ${rating>=5?'active':null}`} onClick={()=>setRating(5)}>5</button></li>
             </ul>
             
-            <button className='bg-primary w-full p-2 rounded-2xl mt-8 text-white font-semibold hover:bg-white hover:text-primary' onClick={()=>setIsSubmit(true)}>SUBMIT
+            <button className='bg-primary w-full p-2 rounded-2xl mt-8 text-white font-semibold hover:bg-white hover:text-primary cursor-pointer' onClick={()=>setIsSubmit(true)}>SUBMIT
         </button>
         </>
     )

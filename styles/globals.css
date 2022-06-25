@@ -13,7 +13,7 @@
 
 @layer components{
     .rating-btn{
-        @apply text-light-gray bg-my-light-gray w-10 h-10 rounded-full text-lg hover:bg-medium-gray hover:text-white
+        @apply text-light-gray bg-my-light-gray w-10 h-10 rounded-full text-lg hover:bg-medium-gray hover:text-white cursor-pointer
     }
     .active{
         @apply bg-primary text-white
