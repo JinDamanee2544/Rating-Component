@@ -14,7 +14,7 @@ const Rating = ({props}) => {
             {!isFav && <AiOutlineStar className='fill-primary'/>}
             {isFav && <AiFillStar className='fill-primary'/>}
         </button>
-            <h1 className="text-white my-4 text-4xl font-bold">How did we do?</h1>
+            <h1 className="text-white my-4 text-xl font-bold">How did we do?</h1>
             <p className="text-medium-gray mt-4 mb-8 text-sm">
                 Plese let us know how did with your support <br/>
                 request. All feedback us appreciated to help us <br/>
